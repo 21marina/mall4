@@ -1,0 +1,448 @@
+2022-05-13 14:32:02,354 root 85 testing Formater打这个...
+2022-05-13 14:32:02,604 root 63 用户名为空  data:{userName:userName不能为空}       响应码+success断言成功 
+2022-05-13 14:32:02,854 root 63 用户名未注册  msg:用户名或密码不正确 响应码+success断言成功 
+2022-05-13 14:32:03,073 root 63 密码为空   data:{passWord:passWord不能为空}响应码+success断言成功 
+2022-05-13 14:32:03,291 root 63 密码错误  msg:AES解密错误响应码+success断言成功 
+2022-05-13 14:32:03,463 root 63 systype为空   jmeter参数sysType:什么都无 A00003+msg:请求参数格式有误 ???requests的参数sysType加双引号 返回的A00002 data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:32:03,635 root 63 少参用户名  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:32:03,854 root 63 少参密码 data:[passWord:passWord不能为空]响应码+success断言成功 
+2022-05-13 14:32:04,041 root 63 少参sysType  data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:32:04,463 root 63 多参add  放最后成功响应码+success断言成功 
+2022-05-13 14:32:04,650 root 63 无参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空} 什么参也没有  {msg:请求参数格式有误,fail:true,code:A00003,data:null,success:false} 如何用requests实现空请求体{}??? 空请求体{} 返回的是{fail:true,code:A00002,data:[passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空]响应码+success断言成功 
+2022-05-13 14:32:04,869 root 63 无参 值为空 请求体data不是null,而是空值的参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空}响应码+success断言成功 
+2022-05-13 14:32:05,041 root 63 错参user  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:32:05,228 root 63 用户名长度大于16  msg:用户名或密码不正确响应码+success断言成功 
+2022-05-13 14:32:05,447 root 63 请求体的参数大写错写为小写  requests中data:三个参数不能为空 jmeter中成功响应码+success断言成功 
+2022-05-13 14:32:05,775 root 63 正向用户名、密码正确响应码+success断言成功 
+2022-05-13 14:33:03,387 root 85 testing Formater打这个...
+2022-05-13 14:33:03,574 root 63 用户名为空  data:{userName:userName不能为空}       响应码+success断言成功 
+2022-05-13 14:33:03,855 root 63 用户名未注册  msg:用户名或密码不正确 响应码+success断言成功 
+2022-05-13 14:33:04,059 root 63 密码为空   data:{passWord:passWord不能为空}响应码+success断言成功 
+2022-05-13 14:33:04,277 root 63 密码错误  msg:AES解密错误响应码+success断言成功 
+2022-05-13 14:33:04,465 root 63 systype为空   jmeter参数sysType:什么都无 A00003+msg:请求参数格式有误 ???requests的参数sysType加双引号 返回的A00002 data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:33:04,668 root 63 少参用户名  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:33:04,871 root 63 少参密码 data:[passWord:passWord不能为空]响应码+success断言成功 
+2022-05-13 14:33:05,090 root 63 少参sysType  data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:33:05,433 root 63 多参add  放最后成功响应码+success断言成功 
+2022-05-13 14:33:05,590 root 63 无参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空} 什么参也没有  {msg:请求参数格式有误,fail:true,code:A00003,data:null,success:false} 如何用requests实现空请求体{}??? 空请求体{} 返回的是{fail:true,code:A00002,data:[passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空]响应码+success断言成功 
+2022-05-13 14:33:06,042 root 63 无参 值为空 请求体data不是null,而是空值的参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空}响应码+success断言成功 
+2022-05-13 14:33:06,246 root 63 错参user  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:33:06,449 root 63 用户名长度大于16  msg:用户名或密码不正确响应码+success断言成功 
+2022-05-13 14:33:06,730 root 63 请求体的参数大写错写为小写  requests中data:三个参数不能为空 jmeter中成功响应码+success断言成功 
+2022-05-13 14:33:07,027 root 63 正向用户名、密码正确响应码+success断言成功 
+2022-05-13 14:37:14,786 root 85 testing Formater打这个...
+2022-05-13 14:37:14,989 root 63 用户名为空  data:{userName:userName不能为空}       响应码+success断言成功 
+2022-05-13 14:37:15,239 root 63 用户名未注册  msg:用户名或密码不正确 响应码+success断言成功 
+2022-05-13 14:37:15,426 root 63 密码为空   data:{passWord:passWord不能为空}响应码+success断言成功 
+2022-05-13 14:37:15,676 root 63 密码错误  msg:AES解密错误响应码+success断言成功 
+2022-05-13 14:37:15,848 root 63 systype为空   jmeter参数sysType:什么都无 A00003+msg:请求参数格式有误 ???requests的参数sysType加双引号 返回的A00002 data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:37:16,114 root 63 少参用户名  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:37:16,317 root 63 少参密码 data:[passWord:passWord不能为空]响应码+success断言成功 
+2022-05-13 14:37:16,520 root 63 少参sysType  data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:37:16,817 root 63 多参add  放最后成功响应码+success断言成功 
+2022-05-13 14:37:16,973 root 63 无参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空} 什么参也没有  {msg:请求参数格式有误,fail:true,code:A00003,data:null,success:false} 如何用requests实现空请求体{}??? 空请求体{} 返回的是{fail:true,code:A00002,data:[passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空]响应码+success断言成功 
+2022-05-13 14:37:17,160 root 63 无参 值为空 请求体data不是null,而是空值的参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空}响应码+success断言成功 
+2022-05-13 14:37:17,379 root 63 错参user  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:37:17,582 root 63 用户名长度大于16  msg:用户名或密码不正确响应码+success断言成功 
+2022-05-13 14:37:17,785 root 63 请求体的参数大写错写为小写  requests中data:三个参数不能为空 jmeter中成功响应码+success断言成功 
+2022-05-13 14:37:18,144 root 63 正向用户名、密码正确响应码+success断言成功 
+2022-05-13 14:37:44,627 root 85 testing Formater打这个...
+2022-05-13 14:37:44,939 root 63 用户名为空  data:{userName:userName不能为空}       响应码+success断言成功 
+2022-05-13 14:37:45,220 root 63 用户名未注册  msg:用户名或密码不正确 响应码+success断言成功 
+2022-05-13 14:37:45,548 root 63 密码为空   data:{passWord:passWord不能为空}响应码+success断言成功 
+2022-05-13 14:37:45,861 root 63 密码错误  msg:AES解密错误响应码+success断言成功 
+2022-05-13 14:37:46,095 root 63 systype为空   jmeter参数sysType:什么都无 A00003+msg:请求参数格式有误 ???requests的参数sysType加双引号 返回的A00002 data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:37:47,079 root 63 少参用户名  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:37:47,298 root 63 少参密码 data:[passWord:passWord不能为空]响应码+success断言成功 
+2022-05-13 14:37:47,532 root 63 少参sysType  data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:37:47,907 root 63 多参add  放最后成功响应码+success断言成功 
+2022-05-13 14:37:48,157 root 63 无参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空} 什么参也没有  {msg:请求参数格式有误,fail:true,code:A00003,data:null,success:false} 如何用requests实现空请求体{}??? 空请求体{} 返回的是{fail:true,code:A00002,data:[passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空]响应码+success断言成功 
+2022-05-13 14:37:48,376 root 63 无参 值为空 请求体data不是null,而是空值的参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空}响应码+success断言成功 
+2022-05-13 14:37:48,626 root 63 错参user  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:37:48,860 root 63 用户名长度大于16  msg:用户名或密码不正确响应码+success断言成功 
+2022-05-13 14:37:49,079 root 63 请求体的参数大写错写为小写  requests中data:三个参数不能为空 jmeter中成功响应码+success断言成功 
+2022-05-13 14:37:49,407 root 63 正向用户名、密码正确响应码+success断言成功 
+2022-05-13 14:37:49,688 root 105 搜索商品值为空 ???怎么区分店铺的  找到29个 错响应码+success断言成功 
+2022-05-13 14:37:49,953 root 105 搜索商品keyword键值对不存在 少参  找到29响应码+success断言成功 
+2022-05-13 14:37:50,188 root 105 搜索商品搜索#开头 结果0 错响应码+success断言成功 
+2022-05-13 14:37:50,375 root 105 搜索商品搜索中文开头 结果0 错   中文不编码参数为包 编码为%E5%8C%85 那需要编码吗???响应码+success断言成功 
+2022-05-13 14:37:50,594 root 105 搜索商品搜索数字 结果为0响应码+success断言成功 
+2022-05-13 14:37:50,797 root 105 搜索商品搜索特殊字符 结果0 响应码+success断言成功 
+2022-05-13 14:37:51,016 root 105 搜索商品搜索负数 结果0 错响应码+success断言成功 
+2022-05-13 14:37:51,234 root 105 正向搜索商品 结果0 错响应码+success断言成功 
+2022-05-13 14:37:51,438 root 128 商品id值为空      服务器出了点小差  响应码+success断言成功 
+2022-05-13 14:37:51,641 root 128 商品id为空 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:37:51,859 root 128 商品id键值对不存在 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:37:52,078 root 128 商品详情商品id不存在 商品不存在 响应码+success断言成功 
+2022-05-13 14:37:52,328 root 128 商品详情商品id为字母 服务器出了点小差响应码+success断言成功 
+2022-05-13 14:37:52,469 root 128 商品id为中文 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:37:52,687 root 128 商品id为负号 商品不存在 响应码+success断言成功 
+2022-05-13 14:37:52,906 root 128 商品id为特殊字符 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:37:53,109 root 128 商品id长度为22 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:37:53,343 root 128 少参spuid 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:37:53,546 root 128 多参 对 响应码+success断言成功 
+2022-05-13 14:37:53,765 root 128 无参 同少参 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:37:53,968 root 128 错参 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:37:54,171 root 128 正向商品详情 共14响应码+success断言成功 
+2022-05-13 14:37:54,374 root 157 加购商品spuid和skuid不匹配响应码+success断言成功 
+2022-05-13 14:37:54,562 root 157 加购商品加购skuid为空  ???jmeter提示参数格式错误 request提示skuid不能为空  因为jmeter若是key：则格式错误 key加双引号才是空值响应码+success断言成功 
+2022-05-13 14:37:54,765 root 157 加购商品加购skuid为字母响应码+success断言成功 
+2022-05-13 14:37:54,952 root 157 加购商品加购skuid为字母但未引号响应码+success断言成功 
+2022-05-13 14:37:56,140 root 157 加购商品加购skuid为中文响应码+success断言成功 
+2022-05-13 14:37:56,358 root 157 加购商品加购skuid为特殊字符响应码+success断言成功 
+2022-05-13 14:37:56,561 root 157 加购商品加购spuid为空响应码+success断言成功 
+2022-05-13 14:37:56,749 root 157 加购商品加购spuid为字母响应码+success断言成功 
+2022-05-13 14:37:57,061 root 157 加购商品加购spuid为字母但未引号响应码+success断言成功 
+2022-05-13 14:37:57,264 root 157 加购商品加购spuid为中文响应码+success断言成功 
+2022-05-13 14:37:57,467 root 157 加购商品加购spuid为特殊字符响应码+success断言成功 
+2022-05-13 14:37:57,686 root 157 加购商品加购count为空响应码+success断言成功 
+2022-05-13 14:37:57,873 root 157 加购商品加购count为0  ???注意是true响应码+success断言成功 
+2022-05-13 14:37:58,061 root 157 加购商品加购count为负数响应码+success断言成功 
+2022-05-13 14:37:58,217 root 157 加购商品加购count为小数响应码+success断言成功 
+2022-05-13 14:37:58,405 root 157 加购商品加购count为字母响应码+success断言成功 
+2022-05-13 14:37:58,623 root 157 加购商品加购count为中文响应码+success断言成功 
+2022-05-13 14:37:58,811 root 157 加购商品加购count为特殊字符响应码+success断言成功 
+2022-05-13 14:37:59,014 root 157 加购商品加购count是大于库存量 共87  提示 商品规格库存不足 无法进行此操作响应码+success断言成功 
+2022-05-13 14:37:59,201 root 157 加购商品加购count是负数减完之后小于0响应码+success断言成功 
+2022-05-13 14:37:59,389 root 157 加购商品加购全参shopCartItemId,spuId,oldSkuId,skuId,shopId,count,isCheck不填响应码+success断言成功 
+2022-05-13 14:37:59,561 root 157 加购商品加购全参shopCartItemId,spuId,oldSkuId,skuId,shopId,count,isCheck填值响应码+success断言成功 
+2022-05-13 14:37:59,732 root 157 加购组合参 spuid，skuid，count+isCheck响应码+success断言成功 
+2022-05-13 14:37:59,935 root 157 加购必选参spuid，skuid,count响应码+success断言成功 
+2022-05-13 14:38:00,123 root 157 加购加购多参add响应码+success断言成功 
+2022-05-13 14:38:00,326 root 157 加购加购少参 spuid,count  提示skuId不能为空响应码+success断言成功 
+2022-05-13 14:38:00,529 root 157 加购加购无参响应码+success断言成功 
+2022-05-13 14:38:00,717 root 157 加购错参 spuids，skuid,count响应码+success断言成功 
+2022-05-13 14:38:00,920 root 157 正向加购商品数量2响应码+success断言成功 
+2022-05-13 14:38:00,920 root 85 testing Formater打这个...
+2022-05-13 14:38:01,232 root 63 正向登录    响应码+success断言成功 
+2022-05-13 14:38:01,466 root 63 正向商品详情    响应码+success断言成功 
+2022-05-13 14:38:01,748 root 63 正向生成订单    响应码+success断言成功 
+2022-05-13 14:38:01,982 root 63 正向提交订单    响应码+success断言成功 
+2022-05-13 14:38:02,185 root 63 正向去支付    响应码+success断言成功 
+2022-05-13 14:52:01,267 root 85 testing Formater打这个...
+2022-05-13 14:52:01,734 root 63 用户名为空  data:{userName:userName不能为空}       响应码+success断言成功 
+2022-05-13 14:52:01,969 root 63 用户名未注册  msg:用户名或密码不正确 响应码+success断言成功 
+2022-05-13 14:52:02,156 root 63 密码为空   data:{passWord:passWord不能为空}响应码+success断言成功 
+2022-05-13 14:52:02,328 root 63 密码错误  msg:AES解密错误响应码+success断言成功 
+2022-05-13 14:52:02,531 root 63 systype为空   jmeter参数sysType:什么都无 A00003+msg:请求参数格式有误 ???requests的参数sysType加双引号 返回的A00002 data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:52:02,750 root 63 少参用户名  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:52:02,922 root 63 少参密码 data:[passWord:passWord不能为空]响应码+success断言成功 
+2022-05-13 14:52:03,125 root 63 少参sysType  data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:52:03,469 root 63 多参add  放最后成功响应码+success断言成功 
+2022-05-13 14:52:03,671 root 63 无参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空} 什么参也没有  {msg:请求参数格式有误,fail:true,code:A00003,data:null,success:false} 如何用requests实现空请求体{}??? 空请求体{} 返回的是{fail:true,code:A00002,data:[passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空]响应码+success断言成功 
+2022-05-13 14:52:03,828 root 63 无参 值为空 请求体data不是null,而是空值的参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空}响应码+success断言成功 
+2022-05-13 14:52:04,031 root 63 错参user  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:52:04,250 root 63 用户名长度大于16  msg:用户名或密码不正确响应码+success断言成功 
+2022-05-13 14:52:04,437 root 63 请求体的参数大写错写为小写  requests中data:三个参数不能为空 jmeter中成功响应码+success断言成功 
+2022-05-13 14:52:04,734 root 63 正向用户名、密码正确响应码+success断言成功 
+2022-05-13 14:52:46,363 root 85 testing Formater打这个...
+2022-05-13 14:52:46,566 root 63 用户名为空  data:{userName:userName不能为空}       响应码+success断言成功 
+2022-05-13 14:52:46,800 root 63 用户名未注册  msg:用户名或密码不正确 响应码+success断言成功 
+2022-05-13 14:52:46,972 root 63 密码为空   data:{passWord:passWord不能为空}响应码+success断言成功 
+2022-05-13 14:52:47,144 root 63 密码错误  msg:AES解密错误响应码+success断言成功 
+2022-05-13 14:52:47,362 root 63 systype为空   jmeter参数sysType:什么都无 A00003+msg:请求参数格式有误 ???requests的参数sysType加双引号 返回的A00002 data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:52:47,581 root 63 少参用户名  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:52:47,800 root 63 少参密码 data:[passWord:passWord不能为空]响应码+success断言成功 
+2022-05-13 14:52:48,034 root 63 少参sysType  data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:52:48,347 root 63 多参add  放最后成功响应码+success断言成功 
+2022-05-13 14:52:48,534 root 63 无参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空} 什么参也没有  {msg:请求参数格式有误,fail:true,code:A00003,data:null,success:false} 如何用requests实现空请求体{}??? 空请求体{} 返回的是{fail:true,code:A00002,data:[passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空]响应码+success断言成功 
+2022-05-13 14:52:48,768 root 63 无参 值为空 请求体data不是null,而是空值的参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空}响应码+success断言成功 
+2022-05-13 14:52:48,987 root 63 错参user  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:52:49,175 root 63 用户名长度大于16  msg:用户名或密码不正确响应码+success断言成功 
+2022-05-13 14:52:49,362 root 63 请求体的参数大写错写为小写  requests中data:三个参数不能为空 jmeter中成功响应码+success断言成功 
+2022-05-13 14:52:49,706 root 63 正向用户名、密码正确响应码+success断言成功 
+2022-05-13 14:52:50,096 root 105 搜索商品值为空 ???怎么区分店铺的  找到29个 错响应码+success断言成功 
+2022-05-13 14:52:50,393 root 105 搜索商品keyword键值对不存在 少参  找到29响应码+success断言成功 
+2022-05-13 14:52:50,612 root 105 搜索商品搜索#开头 结果0 错响应码+success断言成功 
+2022-05-13 14:52:50,815 root 105 搜索商品搜索中文开头 结果0 错   中文不编码参数为包 编码为%E5%8C%85 那需要编码吗???响应码+success断言成功 
+2022-05-13 14:52:51,377 root 105 搜索商品搜索数字 结果为0响应码+success断言成功 
+2022-05-13 14:52:51,580 root 105 搜索商品搜索特殊字符 结果0 响应码+success断言成功 
+2022-05-13 14:52:51,815 root 105 搜索商品搜索负数 结果0 错响应码+success断言成功 
+2022-05-13 14:52:52,033 root 105 正向搜索商品 结果0 错响应码+success断言成功 
+2022-05-13 14:53:53,285 root 85 testing Formater打这个...
+2022-05-13 14:53:53,504 root 63 用户名为空  data:{userName:userName不能为空}       响应码+success断言成功 
+2022-05-13 14:53:53,770 root 63 用户名未注册  msg:用户名或密码不正确 响应码+success断言成功 
+2022-05-13 14:53:53,957 root 63 密码为空   data:{passWord:passWord不能为空}响应码+success断言成功 
+2022-05-13 14:53:54,129 root 63 密码错误  msg:AES解密错误响应码+success断言成功 
+2022-05-13 14:53:54,332 root 63 systype为空   jmeter参数sysType:什么都无 A00003+msg:请求参数格式有误 ???requests的参数sysType加双引号 返回的A00002 data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:53:54,535 root 63 少参用户名  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:53:54,754 root 63 少参密码 data:[passWord:passWord不能为空]响应码+success断言成功 
+2022-05-13 14:53:54,957 root 63 少参sysType  data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 14:53:55,285 root 63 多参add  放最后成功响应码+success断言成功 
+2022-05-13 14:53:55,457 root 63 无参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空} 什么参也没有  {msg:请求参数格式有误,fail:true,code:A00003,data:null,success:false} 如何用requests实现空请求体{}??? 空请求体{} 返回的是{fail:true,code:A00002,data:[passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空]响应码+success断言成功 
+2022-05-13 14:53:55,644 root 63 无参 值为空 请求体data不是null,而是空值的参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空}响应码+success断言成功 
+2022-05-13 14:53:55,847 root 63 错参user  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 14:53:56,050 root 63 用户名长度大于16  msg:用户名或密码不正确响应码+success断言成功 
+2022-05-13 14:53:56,254 root 63 请求体的参数大写错写为小写  requests中data:三个参数不能为空 jmeter中成功响应码+success断言成功 
+2022-05-13 14:53:56,582 root 63 正向用户名、密码正确响应码+success断言成功 
+2022-05-13 14:53:56,878 root 105 搜索商品值为空 ???怎么区分店铺的  找到29个 错响应码+success断言成功 
+2022-05-13 14:53:57,160 root 105 搜索商品keyword键值对不存在 少参  找到29响应码+success断言成功 
+2022-05-13 14:53:57,363 root 105 搜索商品搜索#开头 结果0 错响应码+success断言成功 
+2022-05-13 14:53:57,566 root 105 搜索商品搜索中文开头 结果0 错   中文不编码参数为包 编码为%E5%8C%85 那需要编码吗???响应码+success断言成功 
+2022-05-13 14:53:57,800 root 105 搜索商品搜索数字 结果为0响应码+success断言成功 
+2022-05-13 14:53:58,019 root 105 搜索商品搜索特殊字符 结果0 响应码+success断言成功 
+2022-05-13 14:53:58,222 root 105 搜索商品搜索负数 结果0 错响应码+success断言成功 
+2022-05-13 14:53:58,456 root 105 正向搜索商品 结果0 错响应码+success断言成功 
+2022-05-13 14:53:58,675 root 128 商品id值为空      服务器出了点小差  响应码+success断言成功 
+2022-05-13 14:53:58,894 root 128 商品id为空 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:53:59,081 root 128 商品id键值对不存在 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:53:59,269 root 128 商品详情商品id不存在 商品不存在 响应码+success断言成功 
+2022-05-13 14:53:59,472 root 128 商品详情商品id为字母 服务器出了点小差响应码+success断言成功 
+2022-05-13 14:53:59,706 root 128 商品id为中文 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:53:59,893 root 128 商品id为负号 商品不存在 响应码+success断言成功 
+2022-05-13 14:54:00,097 root 128 商品id为特殊字符 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:54:00,299 root 128 商品id长度为22 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:54:00,487 root 128 少参spuid 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:54:00,674 root 128 多参 对 响应码+success断言成功 
+2022-05-13 14:54:00,893 root 128 无参 同少参 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:54:01,096 root 128 错参 服务器出了点小差 响应码+success断言成功 
+2022-05-13 14:54:01,330 root 128 正向商品详情 共14响应码+success断言成功 
+2022-05-13 14:54:01,518 root 157 加购商品spuid和skuid不匹配响应码+success断言成功 
+2022-05-13 14:54:01,690 root 157 加购商品加购skuid为空  ???jmeter提示参数格式错误 request提示skuid不能为空  因为jmeter若是key：则格式错误 key加双引号才是空值响应码+success断言成功 
+2022-05-13 14:54:01,862 root 157 加购商品加购skuid为字母响应码+success断言成功 
+2022-05-13 14:54:02,065 root 157 加购商品加购skuid为字母但未引号响应码+success断言成功 
+2022-05-13 14:54:02,315 root 157 加购商品加购skuid为中文响应码+success断言成功 
+2022-05-13 14:54:02,518 root 157 加购商品加购skuid为特殊字符响应码+success断言成功 
+2022-05-13 14:54:02,737 root 157 加购商品加购spuid为空响应码+success断言成功 
+2022-05-13 14:54:02,939 root 157 加购商品加购spuid为字母响应码+success断言成功 
+2022-05-13 14:54:03,127 root 157 加购商品加购spuid为字母但未引号响应码+success断言成功 
+2022-05-13 14:54:03,330 root 157 加购商品加购spuid为中文响应码+success断言成功 
+2022-05-13 14:54:03,517 root 157 加购商品加购spuid为特殊字符响应码+success断言成功 
+2022-05-13 14:54:03,721 root 157 加购商品加购count为空响应码+success断言成功 
+2022-05-13 14:54:03,924 root 157 加购商品加购count为0  ???注意是true响应码+success断言成功 
+2022-05-13 14:54:04,127 root 157 加购商品加购count为负数响应码+success断言成功 
+2022-05-13 14:54:04,377 root 157 加购商品加购count为小数响应码+success断言成功 
+2022-05-13 14:54:04,580 root 157 加购商品加购count为字母响应码+success断言成功 
+2022-05-13 14:54:04,752 root 157 加购商品加购count为中文响应码+success断言成功 
+2022-05-13 14:54:04,955 root 157 加购商品加购count为特殊字符响应码+success断言成功 
+2022-05-13 14:54:05,189 root 157 加购商品加购count是大于库存量 共87  提示 商品规格库存不足 无法进行此操作响应码+success断言成功 
+2022-05-13 14:54:05,392 root 157 加购商品加购count是负数减完之后小于0响应码+success断言成功 
+2022-05-13 14:54:05,611 root 157 加购商品加购全参shopCartItemId,spuId,oldSkuId,skuId,shopId,count,isCheck不填响应码+success断言成功 
+2022-05-13 14:54:05,783 root 157 加购商品加购全参shopCartItemId,spuId,oldSkuId,skuId,shopId,count,isCheck填值响应码+success断言成功 
+2022-05-13 14:54:05,970 root 157 加购组合参 spuid，skuid，count+isCheck响应码+success断言成功 
+2022-05-13 14:54:06,173 root 157 加购必选参spuid，skuid,count响应码+success断言成功 
+2022-05-13 14:54:06,376 root 157 加购加购多参add响应码+success断言成功 
+2022-05-13 14:54:06,579 root 157 加购加购少参 spuid,count  提示skuId不能为空响应码+success断言成功 
+2022-05-13 14:54:06,767 root 157 加购加购无参响应码+success断言成功 
+2022-05-13 14:54:06,970 root 157 加购错参 spuids，skuid,count响应码+success断言成功 
+2022-05-13 14:54:07,173 root 157 正向加购商品数量2响应码+success断言成功 
+2022-05-13 14:57:27,358 root 85 testing Formater打这个...
+2022-05-13 14:57:27,717 root 63 正向用户名、密码正确响应码+success断言成功 
+2022-05-13 15:01:15,047 root 85 testing Formater打这个...
+2022-05-13 15:01:15,375 root 85 testing Formater打这个...
+2022-05-13 15:01:15,703 root 63 正向登录    响应码+success断言成功 
+2022-05-13 15:01:15,922 root 63 正向商品详情    响应码+success断言成功 
+2022-05-13 15:01:16,209 root 63 正向生成订单    响应码+success断言成功 
+2022-05-13 15:01:16,459 root 63 正向提交订单    响应码+success断言成功 
+2022-05-13 15:01:16,683 root 63 正向去支付    响应码+success断言成功 
+2022-05-13 15:01:45,799 root 85 testing Formater打这个...
+2022-05-13 15:04:04,405 root 85 testing Formater打这个...
+2022-05-13 15:04:04,592 root 61 用户名为空  data:{userName:userName不能为空}       响应码+success断言成功 
+2022-05-13 15:04:04,858 root 61 用户名未注册  msg:用户名或密码不正确 响应码+success断言成功 
+2022-05-13 15:04:05,061 root 61 密码为空   data:{passWord:passWord不能为空}响应码+success断言成功 
+2022-05-13 15:04:05,264 root 61 密码错误  msg:AES解密错误响应码+success断言成功 
+2022-05-13 15:04:05,420 root 61 systype为空   jmeter参数sysType:什么都无 A00003+msg:请求参数格式有误 ???requests的参数sysType加双引号 返回的A00002 data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 15:04:05,592 root 61 少参用户名  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 15:04:05,780 root 61 少参密码 data:[passWord:passWord不能为空]响应码+success断言成功 
+2022-05-13 15:04:05,998 root 61 少参sysType  data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 15:04:06,373 root 61 多参add  放最后成功响应码+success断言成功 
+2022-05-13 15:04:06,530 root 61 无参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空} 什么参也没有  {msg:请求参数格式有误,fail:true,code:A00003,data:null,success:false} 如何用requests实现空请求体{}??? 空请求体{} 返回的是{fail:true,code:A00002,data:[passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空]响应码+success断言成功 
+2022-05-13 15:04:06,701 root 61 无参 值为空 请求体data不是null,而是空值的参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空}响应码+success断言成功 
+2022-05-13 15:04:06,904 root 61 错参user  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 15:04:07,123 root 61 用户名长度大于16  msg:用户名或密码不正确响应码+success断言成功 
+2022-05-13 15:04:07,326 root 61 请求体的参数大写错写为小写  requests中data:三个参数不能为空 jmeter中成功响应码+success断言成功 
+2022-05-13 15:04:07,654 root 61 正向用户名、密码正确响应码+success断言成功 
+2022-05-13 15:04:07,654 root 85 testing Formater打这个...
+2022-05-13 15:04:07,951 root 67 正向登录    响应码+success断言成功 
+2022-05-13 15:04:08,123 root 67 正向商品详情    响应码+success断言成功 
+2022-05-13 15:04:08,357 root 67 正向生成订单    响应码+success断言成功 
+2022-05-13 15:04:08,576 root 67 正向提交订单    响应码+success断言成功 
+2022-05-13 15:04:08,810 root 67 正向去支付    响应码+success断言成功 
+2022-05-13 15:07:44,699 root 85 testing Formater打这个...
+2022-05-13 15:10:00,999 root 85 testing Formater打这个...
+2022-05-13 15:13:16,317 root 85 testing Formater打这个...
+2022-05-13 15:14:22,525 root 85 testing Formater打这个...
+2022-05-13 15:14:22,915 root 213 正向登录    响应码+success断言成功 
+2022-05-13 15:14:23,141 root 213 正向商品详情    响应码+success断言成功 
+2022-05-13 15:14:23,422 root 213 正向生成订单    响应码+success断言成功 
+2022-05-13 15:14:23,657 root 213 正向提交订单    响应码+success断言成功 
+2022-05-13 15:14:23,907 root 213 正向去支付    响应码+success断言成功 
+2022-05-13 15:14:48,004 root 85 testing Formater打这个...
+2022-05-13 15:14:48,347 root 213 正向登录    响应码+success断言成功 
+2022-05-13 15:14:48,566 root 213 正向商品详情    响应码+success断言成功 
+2022-05-13 15:14:48,832 root 213 正向生成订单    响应码+success断言成功 
+2022-05-13 15:14:49,081 root 213 正向提交订单    响应码+success断言成功 
+2022-05-13 15:14:49,316 root 213 正向去支付    响应码+success断言成功 
+2022-05-13 15:16:00,671 root 85 testing Formater打这个...
+2022-05-13 15:16:00,859 root 61 用户名为空  data:{userName:userName不能为空}       响应码+success断言成功 
+2022-05-13 15:16:01,140 root 61 用户名未注册  msg:用户名或密码不正确 响应码+success断言成功 
+2022-05-13 15:16:01,343 root 61 密码为空   data:{passWord:passWord不能为空}响应码+success断言成功 
+2022-05-13 15:16:01,530 root 61 密码错误  msg:AES解密错误响应码+success断言成功 
+2022-05-13 15:16:01,702 root 61 systype为空   jmeter参数sysType:什么都无 A00003+msg:请求参数格式有误 ???requests的参数sysType加双引号 返回的A00002 data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 15:16:01,905 root 61 少参用户名  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 15:16:02,108 root 61 少参密码 data:[passWord:passWord不能为空]响应码+success断言成功 
+2022-05-13 15:16:02,296 root 61 少参sysType  data:[sysType:sysType不能为空] 响应码+success断言成功 
+2022-05-13 15:16:02,655 root 61 多参add  放最后成功响应码+success断言成功 
+2022-05-13 15:16:02,840 root 61 无参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空} 什么参也没有  {msg:请求参数格式有误,fail:true,code:A00003,data:null,success:false} 如何用requests实现空请求体{}??? 空请求体{} 返回的是{fail:true,code:A00002,data:[passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空]响应码+success断言成功 
+2022-05-13 15:16:03,017 root 61 无参 值为空 请求体data不是null,而是空值的参 data{passWord:passWord不能为空,userName:userName不能为空,sysType:sysType不能为空}响应码+success断言成功 
+2022-05-13 15:16:03,236 root 61 错参user  data:[userName:userName不能为空]响应码+success断言成功 
+2022-05-13 15:16:03,423 root 61 用户名长度大于16  msg:用户名或密码不正确响应码+success断言成功 
+2022-05-13 15:16:03,626 root 61 请求体的参数大写错写为小写  requests中data:三个参数不能为空 jmeter中成功响应码+success断言成功 
+2022-05-13 15:16:03,938 root 61 正向用户名、密码正确响应码+success断言成功 
+2022-05-13 15:16:04,297 root 103 搜索商品值为空 ???怎么区分店铺的  找到29个 错响应码+success断言成功 
+2022-05-13 15:16:04,578 root 103 搜索商品keyword键值对不存在 少参  找到29响应码+success断言成功 
+2022-05-13 15:16:04,750 root 103 搜索商品搜索#开头 结果0 错响应码+success断言成功 
+2022-05-13 15:16:04,953 root 103 搜索商品搜索中文开头 结果0 错   中文不编码参数为包 编码为%E5%8C%85 那需要编码吗???响应码+success断言成功 
+2022-05-13 15:16:05,156 root 103 搜索商品搜索数字 结果为0响应码+success断言成功 
+2022-05-13 15:16:05,368 root 103 搜索商品搜索特殊字符 结果0 响应码+success断言成功 
+2022-05-13 15:16:05,571 root 103 搜索商品搜索负数 结果0 错响应码+success断言成功 
+2022-05-13 15:16:05,743 root 103 正向搜索商品 结果0 错响应码+success断言成功 
+2022-05-13 15:16:05,961 root 126 商品id值为空      服务器出了点小差  响应码+success断言成功 
+2022-05-13 15:16:06,164 root 126 商品id为空 服务器出了点小差 响应码+success断言成功 
+2022-05-13 15:16:06,336 root 126 商品id键值对不存在 服务器出了点小差 响应码+success断言成功 
+2022-05-13 15:16:06,555 root 126 商品详情商品id不存在 商品不存在 响应码+success断言成功 
+2022-05-13 15:16:06,727 root 126 商品详情商品id为字母 服务器出了点小差响应码+success断言成功 
+2022-05-13 15:16:06,914 root 126 商品id为中文 服务器出了点小差 响应码+success断言成功 
+2022-05-13 15:16:07,086 root 126 商品id为负号 商品不存在 响应码+success断言成功 
+2022-05-13 15:16:07,266 root 126 商品id为特殊字符 服务器出了点小差 响应码+success断言成功 
+2022-05-13 15:16:07,469 root 126 商品id长度为22 服务器出了点小差 响应码+success断言成功 
+2022-05-13 15:16:07,688 root 126 少参spuid 服务器出了点小差 响应码+success断言成功 
+2022-05-13 15:16:07,860 root 126 多参 对 响应码+success断言成功 
+2022-05-13 15:16:08,063 root 126 无参 同少参 服务器出了点小差 响应码+success断言成功 
+2022-05-13 15:16:08,266 root 126 错参 服务器出了点小差 响应码+success断言成功 
+2022-05-13 15:16:08,500 root 126 正向商品详情 共14响应码+success断言成功 
+2022-05-13 15:16:08,719 root 155 加购商品spuid和skuid不匹配响应码+success断言成功 
+2022-05-13 15:16:08,906 root 155 加购商品加购skuid为空  ???jmeter提示参数格式错误 request提示skuid不能为空  因为jmeter若是key：则格式错误 key加双引号才是空值响应码+success断言成功 
+2022-05-13 15:16:09,094 root 155 加购商品加购skuid为字母响应码+success断言成功 
+2022-05-13 15:16:09,250 root 155 加购商品加购skuid为字母但未引号响应码+success断言成功 
+2022-05-13 15:16:09,453 root 155 加购商品加购skuid为中文响应码+success断言成功 
+2022-05-13 15:16:09,656 root 155 加购商品加购skuid为特殊字符响应码+success断言成功 
+2022-05-13 15:16:09,859 root 155 加购商品加购spuid为空响应码+success断言成功 
+2022-05-13 15:16:10,015 root 155 加购商品加购spuid为字母响应码+success断言成功 
+2022-05-13 15:16:10,187 root 155 加购商品加购spuid为字母但未引号响应码+success断言成功 
+2022-05-13 15:16:10,359 root 155 加购商品加购spuid为中文响应码+success断言成功 
+2022-05-13 15:16:10,562 root 155 加购商品加购spuid为特殊字符响应码+success断言成功 
+2022-05-13 15:16:10,781 root 155 加购商品加购count为空响应码+success断言成功 
+2022-05-13 15:16:10,973 root 155 加购商品加购count为0  ???注意是true响应码+success断言成功 
+2022-05-13 15:16:11,145 root 155 加购商品加购count为负数响应码+success断言成功 
+2022-05-13 15:16:11,363 root 155 加购商品加购count为小数响应码+success断言成功 
+2022-05-13 15:16:11,582 root 155 加购商品加购count为字母响应码+success断言成功 
+2022-05-13 15:16:11,801 root 155 加购商品加购count为中文响应码+success断言成功 
+2022-05-13 15:16:12,019 root 155 加购商品加购count为特殊字符响应码+success断言成功 
+2022-05-13 15:16:12,176 root 155 加购商品加购count是大于库存量 共87  提示 商品规格库存不足 无法进行此操作响应码+success断言成功 
+2022-05-13 15:16:12,378 root 155 加购商品加购count是负数减完之后小于0响应码+success断言成功 
+2022-05-13 15:16:12,597 root 155 加购商品加购全参shopCartItemId,spuId,oldSkuId,skuId,shopId,count,isCheck不填响应码+success断言成功 
+2022-05-13 15:16:12,800 root 155 加购商品加购全参shopCartItemId,spuId,oldSkuId,skuId,shopId,count,isCheck填值响应码+success断言成功 
+2022-05-13 15:16:13,003 root 155 加购组合参 spuid，skuid，count+isCheck响应码+success断言成功 
+2022-05-13 15:16:13,222 root 155 加购必选参spuid，skuid,count响应码+success断言成功 
+2022-05-13 15:16:13,410 root 155 加购加购多参add响应码+success断言成功 
+2022-05-13 15:16:13,613 root 155 加购加购少参 spuid,count  提示skuId不能为空响应码+success断言成功 
+2022-05-13 15:16:13,785 root 155 加购加购无参响应码+success断言成功 
+2022-05-13 15:16:13,988 root 155 加购错参 spuids，skuid,count响应码+success断言成功 
+2022-05-13 15:16:14,175 root 155 正向加购商品数量2响应码+success断言成功 
+2023-03-29 18:46:05,170 root 85 testing Formater打这个...
+2023-03-29 18:46:05,475 root 64 正向用户名、密码正确响应码+success断言成功 
+2023-03-29 18:46:06,576 root 106 搜索商品值为空 ???怎么区分店铺的  找到29个 错响应码+success断言成功 
+2023-03-29 18:46:06,882 root 106 搜索商品keyword键值对不存在 少参  找到29响应码+success断言成功 
+2023-03-29 18:46:07,055 root 106 搜索商品搜索#开头 结果0 错响应码+success断言成功 
+2023-03-29 18:46:07,342 root 106 搜索商品搜索中文开头 结果0 错   中文不编码参数为包 编码为%E5%8C%85 那需要编码吗???响应码+success断言成功 
+2023-03-29 18:46:07,676 root 106 搜索商品搜索数字 结果为0响应码+success断言成功 
+2023-03-29 18:46:07,836 root 106 搜索商品搜索特殊字符 结果0 响应码+success断言成功 
+2023-03-29 18:46:08,277 root 106 搜索商品搜索负数 结果0 错响应码+success断言成功 
+2023-03-29 18:46:08,468 root 106 正向搜索商品 结果0 错响应码+success断言成功 
+2023-03-29 18:46:08,628 root 129 商品id值为空      服务器出了点小差  响应码+success断言成功 
+2023-03-29 18:46:08,847 root 129 商品id为空 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:46:09,030 root 129 商品id键值对不存在 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:46:09,227 root 129 商品详情商品id不存在 商品不存在 响应码+success断言成功 
+2023-03-29 18:46:09,396 root 129 商品详情商品id为字母 服务器出了点小差响应码+success断言成功 
+2023-03-29 18:46:09,575 root 129 商品id为中文 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:46:09,731 root 129 商品id为负号 商品不存在 响应码+success断言成功 
+2023-03-29 18:46:09,902 root 129 商品id为特殊字符 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:46:10,074 root 129 商品id长度为22 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:46:10,252 root 129 少参spuid 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:46:10,431 root 131 多参 对 响应码+success断言失败 code是(实际，期望)：A00001,00000
+2023-03-29 18:46:10,595 root 129 无参 同少参 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:46:10,783 root 129 错参 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:46:11,070 root 131 正向商品详情 共14响应码+success断言失败 code是(实际，期望)：A00001,00000
+2023-03-29 18:46:11,533 root 158 加购商品spuid和skuid不匹配响应码+success断言成功 
+2023-03-29 18:46:11,729 root 158 加购商品加购skuid为空  ???jmeter提示参数格式错误 request提示skuid不能为空  因为jmeter若是key：则格式错误 key加双引号才是空值响应码+success断言成功 
+2023-03-29 18:46:11,914 root 158 加购商品加购skuid为字母响应码+success断言成功 
+2023-03-29 18:46:12,068 root 158 加购商品加购skuid为字母但未引号响应码+success断言成功 
+2023-03-29 18:46:12,257 root 158 加购商品加购skuid为中文响应码+success断言成功 
+2023-03-29 18:46:12,416 root 158 加购商品加购skuid为特殊字符响应码+success断言成功 
+2023-03-29 18:46:12,604 root 158 加购商品加购spuid为空响应码+success断言成功 
+2023-03-29 18:46:12,781 root 158 加购商品加购spuid为字母响应码+success断言成功 
+2023-03-29 18:46:12,966 root 158 加购商品加购spuid为字母但未引号响应码+success断言成功 
+2023-03-29 18:46:13,143 root 158 加购商品加购spuid为中文响应码+success断言成功 
+2023-03-29 18:46:13,321 root 158 加购商品加购spuid为特殊字符响应码+success断言成功 
+2023-03-29 18:46:13,479 root 158 加购商品加购count为空响应码+success断言成功 
+2023-03-29 18:46:13,665 root 161 加购商品加购count为0  ???注意是true响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:46:13,833 root 161 加购商品加购count为负数响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:46:14,003 root 161 加购商品加购count为小数响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:46:14,174 root 158 加购商品加购count为字母响应码+success断言成功 
+2023-03-29 18:46:14,361 root 158 加购商品加购count为中文响应码+success断言成功 
+2023-03-29 18:46:14,528 root 158 加购商品加购count为特殊字符响应码+success断言成功 
+2023-03-29 18:46:14,688 root 161 加购商品加购count是大于库存量 共87  提示 商品规格库存不足 无法进行此操作响应码+success断言失败 code是(实际，期望)：A01000,A00001
+2023-03-29 18:46:14,865 root 161 加购商品加购count是负数减完之后小于0响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:46:15,041 root 161 加购商品加购全参shopCartItemId,spuId,oldSkuId,skuId,shopId,count,isCheck不填响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:46:15,212 root 161 加购商品加购全参shopCartItemId,spuId,oldSkuId,skuId,shopId,count,isCheck填值响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:46:15,417 root 161 加购组合参 spuid，skuid，count+isCheck响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:46:15,603 root 161 加购必选参spuid，skuid,count响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:46:15,783 root 161 加购加购多参add响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:46:15,950 root 158 加购加购少参 spuid,count  提示skuId不能为空响应码+success断言成功 
+2023-03-29 18:46:16,142 root 158 加购加购无参响应码+success断言成功 
+2023-03-29 18:46:16,327 root 158 加购错参 spuids，skuid,count响应码+success断言成功 
+2023-03-29 18:46:16,493 root 161 正向加购商品数量2响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:54:20,087 root 85 testing Formater打这个...
+2023-03-29 18:54:20,372 root 64 正向用户名、密码正确响应码+success断言成功 
+2023-03-29 18:54:20,906 root 106 搜索商品值为空 ???怎么区分店铺的  找到29个 错响应码+success断言成功 
+2023-03-29 18:54:21,212 root 106 搜索商品keyword键值对不存在 少参  找到29响应码+success断言成功 
+2023-03-29 18:54:21,372 root 106 搜索商品搜索#开头 结果0 错响应码+success断言成功 
+2023-03-29 18:54:21,597 root 106 搜索商品搜索中文开头 结果0 错   中文不编码参数为包 编码为%E5%8C%85 那需要编码吗???响应码+success断言成功 
+2023-03-29 18:54:21,778 root 106 搜索商品搜索数字 结果为0响应码+success断言成功 
+2023-03-29 18:54:21,944 root 106 搜索商品搜索特殊字符 结果0 响应码+success断言成功 
+2023-03-29 18:54:22,137 root 106 搜索商品搜索负数 结果0 错响应码+success断言成功 
+2023-03-29 18:54:22,331 root 106 正向搜索商品 结果0 错响应码+success断言成功 
+2023-03-29 18:54:22,497 root 129 商品id值为空      服务器出了点小差  响应码+success断言成功 
+2023-03-29 18:54:22,684 root 129 商品id为空 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:54:22,843 root 129 商品id键值对不存在 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:54:23,066 root 129 商品详情商品id不存在 商品不存在 响应码+success断言成功 
+2023-03-29 18:54:23,210 root 129 商品详情商品id为字母 服务器出了点小差响应码+success断言成功 
+2023-03-29 18:54:23,358 root 129 商品id为中文 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:54:23,515 root 129 商品id为负号 商品不存在 响应码+success断言成功 
+2023-03-29 18:54:23,679 root 129 商品id为特殊字符 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:54:23,817 root 129 商品id长度为22 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:54:23,988 root 129 少参spuid 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:54:24,208 root 131 多参 对 响应码+success断言失败 code是(实际，期望)：A00001,00000
+2023-03-29 18:54:24,377 root 129 无参 同少参 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:54:24,546 root 129 错参 服务器出了点小差 响应码+success断言成功 
+2023-03-29 18:54:24,723 root 131 正向商品详情 共14响应码+success断言失败 code是(实际，期望)：A00001,00000
+2023-03-29 18:54:24,976 root 158 加购商品spuid和skuid不匹配响应码+success断言成功 
+2023-03-29 18:54:25,171 root 158 加购商品加购skuid为空  ???jmeter提示参数格式错误 request提示skuid不能为空  因为jmeter若是key：则格式错误 key加双引号才是空值响应码+success断言成功 
+2023-03-29 18:54:25,353 root 158 加购商品加购skuid为字母响应码+success断言成功 
+2023-03-29 18:54:25,514 root 158 加购商品加购skuid为字母但未引号响应码+success断言成功 
+2023-03-29 18:54:25,690 root 158 加购商品加购skuid为中文响应码+success断言成功 
+2023-03-29 18:54:25,868 root 158 加购商品加购skuid为特殊字符响应码+success断言成功 
+2023-03-29 18:54:26,019 root 158 加购商品加购spuid为空响应码+success断言成功 
+2023-03-29 18:54:26,190 root 158 加购商品加购spuid为字母响应码+success断言成功 
+2023-03-29 18:54:26,373 root 158 加购商品加购spuid为字母但未引号响应码+success断言成功 
+2023-03-29 18:54:26,529 root 158 加购商品加购spuid为中文响应码+success断言成功 
+2023-03-29 18:54:26,715 root 158 加购商品加购spuid为特殊字符响应码+success断言成功 
+2023-03-29 18:54:26,914 root 158 加购商品加购count为空响应码+success断言成功 
+2023-03-29 18:54:27,106 root 161 加购商品加购count为0  ???注意是true响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:54:27,274 root 161 加购商品加购count为负数响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:54:27,465 root 161 加购商品加购count为小数响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:54:27,619 root 158 加购商品加购count为字母响应码+success断言成功 
+2023-03-29 18:54:27,808 root 158 加购商品加购count为中文响应码+success断言成功 
+2023-03-29 18:54:27,968 root 158 加购商品加购count为特殊字符响应码+success断言成功 
+2023-03-29 18:54:28,120 root 161 加购商品加购count是大于库存量 共87  提示 商品规格库存不足 无法进行此操作响应码+success断言失败 code是(实际，期望)：A01000,A00001
+2023-03-29 18:54:28,300 root 161 加购商品加购count是负数减完之后小于0响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:54:28,446 root 161 加购商品加购全参shopCartItemId,spuId,oldSkuId,skuId,shopId,count,isCheck不填响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:54:28,610 root 161 加购商品加购全参shopCartItemId,spuId,oldSkuId,skuId,shopId,count,isCheck填值响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:54:28,789 root 161 加购组合参 spuid，skuid，count+isCheck响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:54:28,967 root 161 加购必选参spuid，skuid,count响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:54:29,122 root 161 加购加购多参add响应码+success断言失败 code是(实际，期望)：A01000,00000
+2023-03-29 18:54:29,294 root 158 加购加购少参 spuid,count  提示skuId不能为空响应码+success断言成功 
+2023-03-29 18:54:29,463 root 158 加购加购无参响应码+success断言成功 
+2023-03-29 18:54:29,630 root 158 加购错参 spuids，skuid,count响应码+success断言成功 
+2023-03-29 18:54:29,800 root 161 正向加购商品数量2响应码+success断言失败 code是(实际，期望)：A01000,00000
